@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  max-width: 1200px; /* Increased width */
+  width: 90%; /* Responsive */
+  margin: auto;
+  padding: 20px;
 }
 
 .App-logo {
@@ -22,6 +26,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  max-width: 1200px; /* Ensuring header also adapts */
+  width: 90%;
+  margin: auto;
 }
 
 .App-link {
